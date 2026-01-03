@@ -47,7 +47,7 @@ submit.addEventListener("click", function (event) {
   signInWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
       alert("Login successful");
-      window.location.href = "/index.html";
+      window.location.href = "/welcome/welcome.html";
     })
     .catch((error) => {
       alert(error.message);
